@@ -136,7 +136,7 @@ class AlphaZeroGUI:
             anchor="w", pady=(12, 0)
         )
 
-        self.match_var = tk.StringVar(value="Score W-D-B: 0-0-0")
+        self.match_var = tk.StringVar(value="Score W-D-L: 0-0-0")
         ttk.Label(left, textvariable=self.match_var, font=("Segoe UI", 10)).pack(
             anchor="w", pady=(4, 0)
         )
